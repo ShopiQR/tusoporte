@@ -8,7 +8,6 @@ if (window.innerWidth < 768) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-	AOS.init();
 
 	var products = document.querySelectorAll('[data-bss-dynamic-product]');
 
